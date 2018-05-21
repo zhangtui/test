@@ -1,13 +1,7 @@
 package interfacerestAssured;
 
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
-import static org.testng.Assert.assertEquals;
-
-import java.util.Map;
-
-import interfacerestAssured.MathTool;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
